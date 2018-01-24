@@ -11,12 +11,9 @@ public class Aleatorios {
     }
 
     public void invertir(float array[]) {
-        int i, u;
-        int aux;
-        for(i=0,u=array.length-1;i<array.length && u>0;i++,u--){
-                aux = (int) array[i];
-                array[i] = array[u];
-                array[u] = aux;
+        System.out.println("Orden inverso:");
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.println("Elemento " + (i + 1) + " = " + array[i]);
             }
         }
     }
